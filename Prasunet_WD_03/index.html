@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+        <div class="mode-selection" style="display: flex;flex-direction: column;">
+            <button id="pvpButton">Player vs Player</button>
+            <button id="pvaiButton">Player vs AI</button>
+        </div>
+        <div class="board-container">
+            <div class="info">
+                <span class="player-info" id="player1">Player 1 (X)</span>
+                <span class="player-info" id="player2">Player 2 (O)</span>
+                <span class="current-player" id="currentPlayer">Current Player: X</span>
+            </div>
+            <div class="board">
+                <div class="cell" data-index="0"></div>
+                <div class="cell" data-index="1"></div>
+                <div class="cell" data-index="2"></div>
+                <div class="cell" data-index="3"></div>
+                <div class="cell" data-index="4"></div>
+                <div class="cell" data-index="5"></div>
+                <div class="cell" data-index="6"></div>
+                <div class="cell" data-index="7"></div>
+                <div class="cell" data-index="8"></div>
+            </div>
+            <button id="backButton">Back</button>
+            <button id="resetButton">Reset Game</button>
+            <div class="result"></div>
+        </div>
+    </div>
+
+    <!-- Congratulatory Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="closeModal">&times;</span>
+            <p id="modalMessage"></p>
+            <button id="modalCloseButton">Close</button>
+        </div>
+        <div id="emojiRain"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
