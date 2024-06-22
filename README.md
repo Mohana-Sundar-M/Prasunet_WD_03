@@ -76,16 +76,16 @@ Make sure you have a web browser installed (e.g., Chrome, Firefox, Safari).
 ## Screenshots
 
 ### Main Menu
-![Main Menu](screenshots/main.png)
+![Main Menu](screenshots/main.jpeg)
 
 ### Game Board
-![Game Board](screenshots/game-board.png)
+![Game Board](screenshots/game-board.jpeg)
 
 ### Win Popup
-![Win Popup](screenshots/win-popup.png)
+![Win Popup](screenshots/win-popup.jpeg)
 
 ### Loss Popup
-![Loss Popup](screenshots/loss-popup.png)
+![Loss Popup](screenshots/loss-popup.jpeg)
 
 ## Contributing
 
